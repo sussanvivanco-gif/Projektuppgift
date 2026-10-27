@@ -29,6 +29,7 @@
 /*NAV*/
 nav ul {
     display: flex;
+    flex-wrap: wrap;
     list-style-type: none;
     gap: 200px;
     padding-right: 5em;
@@ -77,6 +78,7 @@ nav ul li a {
     gap: 20px;
     align-items: center;
     padding: 30px;
+    background-color: #efd6b8;
 }
 
 .block a {
@@ -84,16 +86,15 @@ nav ul li a {
     justify-content: center;
     color:#CD7912;
     font-weight: bold;
-    padding: 1em;
-
-    
+    padding: 1em;   
 }
 
-.boka{
+.boka {
     width: 300px;
     height: 350px;
     object-fit: fill;
     border:#CD7912 3px solid;
+    background-color: beige;
 }
 
 .beganad{
@@ -101,31 +102,27 @@ nav ul li a {
     height: 350px;
     object-fit: fill;
     border:#CD7912 3px solid;
+    background-color: beige;
 }
 
 /*footer*/
 .footer-wrapper {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    max-width: auto;
-    margin: none;
+    justify-content: space-evenly;    
     border-top: 10px solid #CD7912;
     color: #CD7912;
     font-weight: bold;
 }
+
 footer ul {
     display: flex;
+    flex-wrap: wrap;
     list-style-type: none;
     gap: 200px;
-    padding-right: 5em;
-    padding-left: 5em;
-}
-
-footer ul li a {
     color:#CD7912;
     text-decoration: none;
-    font-size: 1.3em;
+    font-size: 1em;
+    padding-right: 5em;
+    padding-left: 5em;
 }
 
