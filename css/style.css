@@ -7,7 +7,6 @@
     margin: 0 auto;
     border-bottom: 20px solid #CD7912;
 }
-
 /*Logga*/
 .logo {
     display: flex;
@@ -18,7 +17,7 @@
     max-width: 100px;
 }
 
-.logo span{
+.logo span {
     color: #CD7912;
     font-weight: bold;
     font-size: 1.5em;
@@ -36,3 +35,24 @@ nav ul li a {
     text-decoration: none;
     font-size: 1.3em;
 }
+
+/*section*/
+
+.cykelservice {
+   background-image: url(images/cykelservice.jpg);
+   background-size: cover;
+   background-position: center;
+   min-height: auto;
+   padding: 2rem;
+   color: #CD7912;
+   font-weight: bold;
+}
+
+/*bakgrundsbild
+.serviceimg {
+    max-width: 0 auto;
+}
+/*section rubrik och text
+.cykelservice h1 p {
+
+}*/
