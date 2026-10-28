@@ -40,8 +40,24 @@ nav ul li a {
 }
 
 
+.main-wrapper{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #CD7912;
+}
 
-
+.adress li {
+    display: left;
+}
+.adress ul li {
+    display: flex;
+    flex: column;
+    flex-wrap: wrap;
+    list-style-type: none;
+    text-decoration: none;
+}
 
 
 /*footer*/
