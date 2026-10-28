@@ -39,7 +39,12 @@ nav ul li a {
     font-size: 1.3em;
 }
 
-
+.main-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
 
 
 
