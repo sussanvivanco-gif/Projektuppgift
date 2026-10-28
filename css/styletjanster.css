@@ -39,13 +39,122 @@ nav ul li a {
     font-size: 1.3em;
 }
 
+/*main*/
 .main-wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
     color: #CD7912;
 }
+
+
+
+
+/*Beganade cyklar till salu*/
+.beganade {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+/*.beganade h1 h2 {
+    
+}*/
+
+.dam {
+    width: 300px;
+    height: 350px;
+    object-fit: fill;
+    border:#CD7912 3px solid;
+    background-color: beige;
+}
+
+.dam p {
+    display: flex;
+    justify-content: center;
+    color:#CD7912;
+    font-weight: bold;
+    padding: 1em;   
+}
+
+.dam img{
+    width: 300px;
+    height: 290px;
+    object-fit: cover;
+}
+
+.mountain {
+    width: 300px;
+    height: 350px;
+    object-fit: fill;
+    border:#CD7912 3px solid;
+    background-color: beige;
+}
+
+.mountain p {
+    display: flex;
+    justify-content: center;
+    color:#CD7912;
+    font-weight: bold;
+    padding: 1em;   
+}
+
+.mountain img{
+    width: 300px;
+    height: 290px;
+    object-fit: cover;
+}
+
+.racer {
+    width: 300px;
+    height: 350px;
+    object-fit: fill;
+    border:#CD7912 3px solid;
+    background-color: beige;
+}
+
+.racer p {
+    display: flex;
+    justify-content: center;
+    color:#CD7912;
+    font-weight: bold;
+    padding: 1em;   
+}
+
+.racer img{
+    width: 300px;
+    height: 290px;
+    object-fit: cover;
+}
+
+.trehjuling {
+    width: 300px;
+    height: 350px;
+    object-fit: fill;
+    border:#CD7912 3px solid;
+    background-color: beige;
+}
+
+.trehjuling p {
+    display: flex;
+    justify-content: center;
+    color:#CD7912;
+    font-weight: bold;
+    padding: 1em;   
+}
+
+.trehjuling img{
+    width: 300px;
+    height: 290px;
+    object-fit: cover;
+}
+
+
+
 
 
 
