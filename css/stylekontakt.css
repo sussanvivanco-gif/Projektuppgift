@@ -54,6 +54,10 @@ nav ul li a {
 }
 
 /*kontaktformulär*/
+
+h1{
+    font-size: 1rem;
+}
 .form{
     box-sizing: border-box;
     padding-bottom: 20%;
