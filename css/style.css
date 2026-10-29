@@ -28,6 +28,7 @@
 nav ul {
     display: block;
     list-style-type: none;
+    color: #CD7912;
 }
 
 @media (min-width: 768px) {
@@ -39,7 +40,6 @@ nav ul {
     gap: 200px;
     padding-right: 5em;
     }
-
 }
 
 nav ul li a {
@@ -49,7 +49,6 @@ nav ul li a {
 }
 
 /*section*/
-
 .cykelservice {
     display: grid;
     place-items: center;
@@ -127,7 +126,12 @@ nav ul li a {
     color: #CD7912;
     font-weight: bold;
 }
+footer ul {
+    display: block;
+    list-style-type: none;
+}
 
+@media (min-width: 768px) {
 footer ul {
     display: flex;
     flex-wrap: wrap;
@@ -139,4 +143,4 @@ footer ul {
     padding-right: 5em;
     padding-left: 5em;
 }
-
+}
