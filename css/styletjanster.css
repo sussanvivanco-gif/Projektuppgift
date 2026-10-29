@@ -26,11 +26,18 @@
 
 /*NAV*/
 nav ul {
+    display: block;
+    list-style-type: none;
+}
+
+@media (min-width: 768px) {
+nav ul {
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
     gap: 200px;
     padding-right: 5em;
+}
 }
 
 nav ul li a {
