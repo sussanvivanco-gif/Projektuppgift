@@ -39,25 +39,41 @@ nav ul li a {
     font-size: 1.3em;
 }
 
-
+/*main*/
 .main-wrapper{
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around;
     flex-wrap: wrap;
     align-items: center;
     color: #CD7912;
+    padding-top: 3%;
+    padding-right: 20%;
+    padding-bottom: 3%;
+    padding-left: 20%;
+    
 }
 
-.adress li {
-    display: left;
+.form {
+
 }
-.adress ul li {
+
+
+/*adress och karta*/
+.adress ul {
     display: flex;
-    flex: column;
+    flex-direction: column;
     flex-wrap: wrap;
+    gap: 25px;
     list-style-type: none;
     text-decoration: none;
+    padding-left: 0%;
+
 }
+
+.form{
+    padding-bottom: 25%;
+}
+
 
 
 /*footer*/
