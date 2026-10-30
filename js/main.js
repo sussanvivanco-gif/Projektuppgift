@@ -11,7 +11,7 @@ form.addEventListener ("submit", (event) => {
 
     const name = nameInput.value.trim();
     const email = emailInput.value.trim();
-    const messafe =messageInput.value.trim();
+    const message = messageInput.value.trim();
 
     //Namn kontroll
     if (name === "") {
@@ -26,7 +26,7 @@ form.addEventListener ("submit", (event) => {
     }
 
     //Meddelande kontroll (minst 10 tecken)
-    if (messageInput.length <10) {
+    if (message.length <10) {
         errorMessage.textContent = "Meddelande måste innehålla minst 10 tecken.";
         return;
     }
