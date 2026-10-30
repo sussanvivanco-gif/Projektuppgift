@@ -2,7 +2,7 @@
 
 const form = document.querySelector("#user-form");
 const nameInput = document.querySelector("#name");
-const emailInput = document.querySelector ("email");
+const emailInput = document.querySelector ("#email");
 const errorMessage = document.querySelector("#error-message");
 
 form.addEventListener ("submit", (event) => {
