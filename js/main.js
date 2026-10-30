@@ -3,6 +3,7 @@
 const form = document.querySelector("#user-form");
 const nameInput = document.querySelector("#name");
 const emailInput = document.querySelector ("#email");
+const messageInput = document.querySelector ("#message");
 const errorMessage = document.querySelector("#error-message");
 
 form.addEventListener ("submit", (event) => {
@@ -10,6 +11,7 @@ form.addEventListener ("submit", (event) => {
 
     const name = nameInput.value.trim();
     const email = emailInput.value.trim();
+    const messafe =messageInput.value.trim();
 
     //Namn kontroll
     if (name === "") {
@@ -23,12 +25,19 @@ form.addEventListener ("submit", (event) => {
         return;
     }
 
+    //Meddelande kontroll (minst 10 tecken)
+    if (messageInput.length <10) {
+        errorMessage.textContent = "Meddelande måste innehålla minst 10 tecken.";
+        return;
+    }
     
     //Om allt ok
     errorMessage.textContent = "";
 
     console.log("Namn:", name);
-    console.log("Mejladress", email);
+    console.log("Mejladress:", email);
+    console.log("Meddelande:", message);
+    alert("Meddelandet skickat!");
     
     
 });
