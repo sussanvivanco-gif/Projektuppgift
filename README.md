@@ -24,7 +24,7 @@ Projektet är byggt med:
 ## Webbadress: 
 https://sussanvivanco-gif.github.io/Projektuppgift/
 
-## 📬 Kontakt
+## Kontakt
 
 **Sussan Castro Vivanco**  
 ✉️ suca2600@student.miun.se
