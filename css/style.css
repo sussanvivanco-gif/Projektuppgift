@@ -36,8 +36,6 @@ nav ul {
     color: #CD7912;
 }
 
-@media (min-width: 768px) {
-
 nav ul {
     display: flex;
     flex-wrap: wrap;
