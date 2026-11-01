@@ -1,3 +1,8 @@
+/*typsnitt*/
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
 /*Header*/
 .header-wrapper {
     display: flex;
@@ -6,10 +11,21 @@
     align-items: center;
     border-bottom: 20px solid #CD7912;
 }
+.menu {
+    display: none;
+    width: 100%;
+}
+.menu.open {
+    display: block;
+}
+.menu-toggle {
+    cursor: pointer;
+ }
+ 
 /*Logga*/
 .logo {
     display: flex;
-    align-items: center;
+    align-items: center;s
     gap: 20px;
     padding-left: 5em;
     padding-bottom: 1em;
@@ -28,24 +44,40 @@
 nav ul {
     display: block;
     list-style-type: none;
+    color: #CD7912;
 }
-
-@media (min-width: 768px) {
 
 nav ul {
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
-    gap: 200px;
+    gap: 40px;
     padding-right: 5em;
-}
-}
-
+    }
 nav ul li a {
     color:#CD7912;
     text-decoration: none;
     font-size: 1.3em;
 }
+
+/*Stora skärmar*/
+@media (min-width: 768px) {
+
+.menu-toggle {
+    display: none;
+}
+
+.menu {
+    display: block;
+    width: auto;
+}
+
+.menu ul {
+    display: flex;
+    gap: 60px;
+}
+}
+
 
 /*main*/
 .main-wrapper{

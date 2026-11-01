@@ -1,11 +1,14 @@
 "use strict";
 
+//Kontaktformulär
 const form = document.querySelector("#user-form");
 const nameInput = document.querySelector("#name");
 const emailInput = document.querySelector ("#email");
 const messageInput = document.querySelector ("#message");
 const errorMessage = document.querySelector("#error-message");
 
+
+if (form) {
 form.addEventListener ("submit", (event) => {
     event.preventDefault();
 
@@ -41,7 +44,18 @@ form.addEventListener ("submit", (event) => {
     
     
 });
+}
 
+//Hamburgermeny
+
+const menuToggle = document.querySelector(".menu-toggle"); 
+const menu = document.querySelector(".menu");
+
+if (menuToggle && menu) { 
+    menuToggle.addEventListener ("click", function() {
+    menu.classList.toggle("open");
+});
+}
 
 /*const getMessageButton = document.getElementById("getMessageButton");
 
