@@ -96,6 +96,14 @@ nav ul li a {
    
 }
 
+/*Små skärmar*/
+@media (max-width: 768px) {
+    .service {
+        margin-left: 0;
+        text-align: left;
+    }
+}
+
 .headerstor {
     display: flex;
     justify-content: space-between;
