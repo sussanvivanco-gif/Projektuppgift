@@ -1,3 +1,8 @@
+/*typsnitt*/
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
 /*Header*/
 .header-wrapper {
     display: flex;
