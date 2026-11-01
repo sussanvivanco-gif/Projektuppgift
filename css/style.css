@@ -11,6 +11,17 @@ body {
     align-items: center;
     border-bottom: 20px solid #CD7912;
 }
+.menue {
+    display: none;
+    width: 100%;
+}
+.menue.open {
+    display: block;
+}
+.menue-toggle {
+    cursor: pointer;
+ }
+ 
 /*Logga*/
 .logo {
     display: flex;
@@ -40,16 +51,33 @@ nav ul {
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
-    gap: 200px;
+    gap: 40px;
     padding-right: 5em;
     }
-}
-
 nav ul li a {
     color:#CD7912;
     text-decoration: none;
     font-size: 1.3em;
 }
+
+/*Stora skärmar*/
+@media (min-width: 768px) {
+
+.menue-toggle {
+    display: none;
+}
+
+.menue {
+    display: block;
+    width: auto;
+}
+
+.menue ul {
+    display: flex;
+    gap: 60px;
+}
+}
+
 
 /*section*/
 .cykelservice {
@@ -137,13 +165,11 @@ footer ul {
 @media (min-width: 768px) {
 footer ul {
     display: flex;
-    flex-wrap: wrap;
+    gap: 20px;
     list-style-type: none;
     gap: 200px;
     color:#CD7912;
     text-decoration: none;
-    font-size: 1em;
-    padding-right: 5em;
     padding-left: 5em;
 }
 }
