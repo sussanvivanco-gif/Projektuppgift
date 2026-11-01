@@ -10,6 +10,7 @@ body {
     flex-wrap: wrap;
     align-items: center;
     border-bottom: 20px solid #CD7912;
+    padding-bottom: 10px;
 }
 .menu {
     display: none;
@@ -53,7 +54,7 @@ nav ul {
     list-style-type: none;
     gap: 40px;
     padding-right: 5em;
-    }
+}
 nav ul li a {
     color:#CD7912;
     text-decoration: none;
