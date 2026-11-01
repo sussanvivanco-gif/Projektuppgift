@@ -11,14 +11,14 @@ body {
     align-items: center;
     border-bottom: 20px solid #CD7912;
 }
-.menue {
+.menu {
     display: none;
     width: 100%;
 }
-.menue.open {
+.menu.open {
     display: block;
 }
-.menue-toggle {
+.menu-toggle {
     cursor: pointer;
  }
  
@@ -63,16 +63,16 @@ nav ul li a {
 /*Stora skärmar*/
 @media (min-width: 768px) {
 
-.menue-toggle {
+.menu-toggle {
     display: none;
 }
 
-.menue {
+.menu {
     display: block;
     width: auto;
 }
 
-.menue ul {
+.menu ul {
     display: flex;
     gap: 60px;
 }

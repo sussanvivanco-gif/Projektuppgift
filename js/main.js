@@ -46,13 +46,16 @@ form.addEventListener ("submit", (event) => {
 });
 }
 
+//Hamburgermeny
 
-const menuToggle = document.querySelector(".menue-toggle"); 
-const menu = document.querySelector(".menue");
+const menuToggle = document.querySelector(".menu-toggle"); 
+const menu = document.querySelector(".menu");
 
-menuToggle.addEventListener ("click", function() {
+if (menuToggle && menu) { 
+    menuToggle.addEventListener ("click", function() {
     menu.classList.toggle("open");
 });
+}
 
 /*const getMessageButton = document.getElementById("getMessageButton");
 
